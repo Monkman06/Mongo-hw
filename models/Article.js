@@ -8,7 +8,8 @@ var ArticleSchema = new Schema({
   // title is a required string
   title: {
     type: String,
-    required: true
+    unique: true
+    require: "Article title is required"
   },
   // link is a required string
   link: {
