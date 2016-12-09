@@ -5,12 +5,12 @@ var NoteSchema = new Schema({// create the Note schema
   // just a string
   title: {
     type:String
-    required: ""
+   // required: 
   },
   // just a string
   body: {
     type:String
-    required: ""
+   // required: 
   }
 });
 // Remember, Mongoose will auto save the notes ObjectIds. ids are referred to in the Article model. create the Note model with the NoteSchema
